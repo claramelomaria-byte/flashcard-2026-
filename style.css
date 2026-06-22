@@ -7,7 +7,8 @@
     padding: 15px 25px;
     display: flex;
     justify-content:space-between
-    align-items: center;
+    align-items: center; 
+    background-color: beige;
 }
 
 .cartao{
@@ -25,8 +26,20 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: darkkhaki;
 }
 
 main {
     flex: 1;
+} 
+
+
+.cabecalho-link{
+    color: rgb(177, 220, 5);
+    text-decoration: none;
+}
+
+h1 {
+    color: crimson;
+    font-size: 24px;
 }
