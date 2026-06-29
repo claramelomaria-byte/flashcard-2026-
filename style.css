@@ -51,11 +51,21 @@ footer {
 }
 
 .cartao-interno {
-    position: relative;
+    position: relative; 
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
 
+.cartao:houver .cartao-interno {
+    transform: rotatey(180deg)
+}
 .cartao-frente, .cartao-verso {
     position: relative;
     border-radius: 12px;
-    box-shadow: 0 6px 12px green
+    box-shadow: 0 6px 12px green;
+    backface-visibility: hidden;
+}
+
+.catao-verso{
+    transform: rotatey(180deg)
 }
